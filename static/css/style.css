@@ -1,0 +1,147 @@
+/* Global Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    height: 100vh;
+
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url('../images/banner.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 24px;
+}
+
+
+/* Buttons */
+
+.btn-warning {
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.btn-dark,
+.btn-warning {
+    transition: 0.3s;
+}
+
+.btn-dark:hover,
+.btn-warning:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Section Titles */
+
+section h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+
+/* Cards */
+
+.card {
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+/* Gallery Images */
+
+img {
+    border-radius: 12px;
+}
+
+.gallery img {
+    transition: 0.4s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Testimonials */
+
+.testimonial-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+
+/* Footer */
+
+footer {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+/* Responsive */
+
+@media(max-width: 768px) {
+
+    .hero-section h1 {
+        font-size: 42px;
+    }
+
+    .hero-section p {
+        font-size: 18px;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+}
